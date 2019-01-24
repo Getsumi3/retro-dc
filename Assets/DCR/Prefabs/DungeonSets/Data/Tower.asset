@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce2eca083442b814abc051e4c856ccce, type: 3}
+  m_Name: Tower
+  m_EditorClassIdentifier: 
+  noun: Tower
+  description: Setup description // optional
+  floorTiles:
+  - {fileID: 1428415797531722, guid: 87dd5f705f4671d46a79b7ac70156279, type: 2}
+  - {fileID: 1793365814212204, guid: 98c21870682473e42910769410a4b3d0, type: 2}
+  - {fileID: 1793365814212204, guid: 98c21870682473e42910769410a4b3d0, type: 2}
+  - {fileID: 1507230006186354, guid: 0e1a0f2345a049340aeb5ce0b728c67e, type: 2}
+  wallTiles:
+  - {fileID: 1077594664490168, guid: e65623bc4f2900b4ead437101096646b, type: 2}
+  - {fileID: 1204986643808478, guid: 7e6b1d9b1dcc1c7459f21eb489ffea5a, type: 2}
+  - {fileID: 1654706740491714, guid: fe7bb809651209b4ca4479f871dcdee4, type: 2}
+  - {fileID: 1063512200404432, guid: bd6c73dab67b587418700d1ed719e787, type: 2}
+  - {fileID: 1398922339232900, guid: a8283ce91d2c8a3469731f3090759817, type: 2}
+  propsTiles:
+  - {fileID: 1358449383274294, guid: ce746c8d3e0dff24782c9bf9f892b6b9, type: 2}
+  - {fileID: 1329722392477324, guid: b9a908308fc0c2e42b384a28d68cceb0, type: 2}
+  - {fileID: 1020593952484782, guid: 260ec39bd6ed3e747b215d0c36b0b5a3, type: 2}
+  - {fileID: 1941736725616424, guid: edfdfdb8c4a22e043a2c8d20d647f664, type: 2}
+  outerWallTiles:
+  - {fileID: 1077594664490168, guid: e65623bc4f2900b4ead437101096646b, type: 2}
+  - {fileID: 1204986643808478, guid: 7e6b1d9b1dcc1c7459f21eb489ffea5a, type: 2}
+  - {fileID: 1654706740491714, guid: fe7bb809651209b4ca4479f871dcdee4, type: 2}
+  - {fileID: 1063512200404432, guid: bd6c73dab67b587418700d1ed719e787, type: 2}

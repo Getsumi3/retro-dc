@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8694a7c2574db36f9d52914a793, type: 3}
+  m_Name: special_ammo
+  m_EditorClassIdentifier: 
+  noun: special_ammo
+  dropRarity: 30
+  description: Description in room
+  item: {fileID: 1363762321912578, guid: 5d572aaffc3b42a4f99678815d946967, type: 2}
+  min: 5
+  max: 30

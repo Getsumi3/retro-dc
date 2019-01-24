@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1905693729624612}
+  m_IsPrefabAsset: 1
+--- !u!1 &1905693729624612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4826525194337930}
+  - component: {fileID: 114436639076352386}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4826525194337930
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1905693729624612}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114436639076352386
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1905693729624612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ab3dde700fcd3542933a110d5a63874, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boardColumns: 30
+  boardRows: 30
+  numRooms:
+    m_Min: 20
+    m_Max: 30
+  roomWidth:
+    m_Min: 2
+    m_Max: 8
+  roomHeight:
+    m_Min: 2
+    m_Max: 8
+  corridorLength:
+    m_Min: 6
+    m_Max: 12
+  tileSize: 5
+  dungeonSets:
+  - {fileID: 11400000, guid: dcc08629e8809cf43ba8021b6669235b, type: 2}
+  enemySpawner: {fileID: 1316501447861668, guid: 4be675f0bd3b35242881f4c69e8351b3,
+    type: 2}
+  player: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  enter: {fileID: 1306514282940380, guid: 20cf16fd3608a4545a1ceb649f1ab807, type: 2}
+  exit: {fileID: 1708988399380906, guid: 92ce829d5a642a04ca0bf72ceb0b8319, type: 2}
+  navmeshFloor: {fileID: 0}
+  lightPref: {fileID: 1611719934636380, guid: a0131b21319f7e6419688d1e3560f650, type: 2}
+  corridorProps: {fileID: 1977090991592804, guid: 13ab44b91b081124ebb63dd398a3e554,
+    type: 2}
+  boardHolder: {fileID: 0}

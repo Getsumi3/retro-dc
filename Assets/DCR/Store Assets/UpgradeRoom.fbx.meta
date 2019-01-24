@@ -1,0 +1,437 @@
+fileFormatVersion: 2
+guid: 071a8bd482625e54cacefbb68bea4f51
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Banner
+    100002: Banner.002
+    100004: Banner.003
+    100006: Banner.004
+    100008: Book
+    100010: Book Shelf.001
+    100012: Book Shelf.002
+    100014: Book Shelf.003
+    100016: Book.002
+    100018: Book.003
+    100020: Bricks.001
+    100022: Circle
+    100024: Circle.001
+    100026: Circle.003
+    100028: Collar.001
+    100030: Collar.002
+    100032: Collar.003
+    100034: Collar.004
+    100036: crate.001
+    100038: crate.002
+    100040: crate.003
+    100042: Grid
+    100044: Grid.002
+    100046: Ground
+    100048: Ground.001
+    100050: Ground.002
+    100052: Ground.003
+    100054: Ground.004
+    100056: Ground.005
+    100058: Ground.007
+    100060: Ground.008
+    100062: Ground.009
+    100064: Lava Pit
+    100066: Lava Pit.002
+    100068: Player
+    100070: Portal.001
+    100072: Portal.003
+    100074: railing
+    100076: railing.001
+    100078: railing.002
+    100080: railing.003
+    100082: small Book Shelf
+    100084: small Book Shelf.002
+    100086: Spiderweb01
+    100088: Spiderweb02
+    100090: Spiderweb02.002
+    100092: StairsDown
+    100094: StairsDown.001
+    100096: StairsDown.003
+    100098: Tourch
+    100100: Tourch.002
+    100102: Tourch.003
+    100104: //RootNode
+    100106: vase
+    100108: vase.001
+    100110: vase.002
+    100112: vase.003
+    100114: Wall
+    100116: Wall Window
+    100118: Wall Window.002
+    100120: Wall.001
+    100122: Wall.002
+    100124: Wall.003
+    100126: Wall.004
+    100128: Wall.005
+    100130: Wall.006
+    100132: Wall.007
+    100134: Wall.008
+    100136: Wall.009
+    100138: Wall.010
+    100140: Wall.011
+    100142: Wall.013
+    100144: Wall.014
+    100146: Wall.015
+    100148: Wall.016
+    100150: Wall.017
+    100152: Wall.018
+    100154: Wall.019
+    400000: Banner
+    400002: Banner.002
+    400004: Banner.003
+    400006: Banner.004
+    400008: Book
+    400010: Book Shelf.001
+    400012: Book Shelf.002
+    400014: Book Shelf.003
+    400016: Book.002
+    400018: Book.003
+    400020: Bricks.001
+    400022: Circle
+    400024: Circle.001
+    400026: Circle.003
+    400028: Collar.001
+    400030: Collar.002
+    400032: Collar.003
+    400034: Collar.004
+    400036: crate.001
+    400038: crate.002
+    400040: crate.003
+    400042: Grid
+    400044: Grid.002
+    400046: Ground
+    400048: Ground.001
+    400050: Ground.002
+    400052: Ground.003
+    400054: Ground.004
+    400056: Ground.005
+    400058: Ground.007
+    400060: Ground.008
+    400062: Ground.009
+    400064: Lava Pit
+    400066: Lava Pit.002
+    400068: Player
+    400070: Portal.001
+    400072: Portal.003
+    400074: railing
+    400076: railing.001
+    400078: railing.002
+    400080: railing.003
+    400082: small Book Shelf
+    400084: small Book Shelf.002
+    400086: Spiderweb01
+    400088: Spiderweb02
+    400090: Spiderweb02.002
+    400092: StairsDown
+    400094: StairsDown.001
+    400096: StairsDown.003
+    400098: Tourch
+    400100: Tourch.002
+    400102: Tourch.003
+    400104: //RootNode
+    400106: vase
+    400108: vase.001
+    400110: vase.002
+    400112: vase.003
+    400114: Wall
+    400116: Wall Window
+    400118: Wall Window.002
+    400120: Wall.001
+    400122: Wall.002
+    400124: Wall.003
+    400126: Wall.004
+    400128: Wall.005
+    400130: Wall.006
+    400132: Wall.007
+    400134: Wall.008
+    400136: Wall.009
+    400138: Wall.010
+    400140: Wall.011
+    400142: Wall.013
+    400144: Wall.014
+    400146: Wall.015
+    400148: Wall.016
+    400150: Wall.017
+    400152: Wall.018
+    400154: Wall.019
+    2100000: Material.004
+    2100002: Material.001
+    2100004: Material.002
+    2100006: Material.003
+    2100008: Material.006
+    2100010: Material.005
+    2100012: No Name
+    2300000: Banner
+    2300002: Banner.002
+    2300004: Banner.003
+    2300006: Banner.004
+    2300008: Book
+    2300010: Book Shelf.001
+    2300012: Book Shelf.002
+    2300014: Book Shelf.003
+    2300016: Book.002
+    2300018: Book.003
+    2300020: Bricks.001
+    2300022: Circle
+    2300024: Circle.001
+    2300026: Circle.003
+    2300028: Collar.001
+    2300030: Collar.002
+    2300032: Collar.003
+    2300034: Collar.004
+    2300036: crate.001
+    2300038: crate.002
+    2300040: crate.003
+    2300042: Grid
+    2300044: Grid.002
+    2300046: Ground
+    2300048: Ground.001
+    2300050: Ground.002
+    2300052: Ground.003
+    2300054: Ground.004
+    2300056: Ground.005
+    2300058: Ground.007
+    2300060: Ground.008
+    2300062: Ground.009
+    2300064: Lava Pit
+    2300066: Lava Pit.002
+    2300068: Player
+    2300070: Portal.001
+    2300072: Portal.003
+    2300074: railing
+    2300076: railing.001
+    2300078: railing.002
+    2300080: railing.003
+    2300082: small Book Shelf
+    2300084: small Book Shelf.002
+    2300086: Spiderweb01
+    2300088: Spiderweb02
+    2300090: Spiderweb02.002
+    2300092: StairsDown
+    2300094: StairsDown.001
+    2300096: StairsDown.003
+    2300098: Tourch
+    2300100: Tourch.002
+    2300102: Tourch.003
+    2300104: vase
+    2300106: vase.001
+    2300108: vase.002
+    2300110: vase.003
+    2300112: Wall
+    2300114: Wall Window
+    2300116: Wall Window.002
+    2300118: Wall.001
+    2300120: Wall.002
+    2300122: Wall.003
+    2300124: Wall.004
+    2300126: Wall.005
+    2300128: Wall.006
+    2300130: Wall.007
+    2300132: Wall.008
+    2300134: Wall.009
+    2300136: Wall.010
+    2300138: Wall.011
+    2300140: Wall.013
+    2300142: Wall.014
+    2300144: Wall.015
+    2300146: Wall.016
+    2300148: Wall.017
+    2300150: Wall.018
+    2300152: Wall.019
+    3300000: Banner
+    3300002: Banner.002
+    3300004: Banner.003
+    3300006: Banner.004
+    3300008: Book
+    3300010: Book Shelf.001
+    3300012: Book Shelf.002
+    3300014: Book Shelf.003
+    3300016: Book.002
+    3300018: Book.003
+    3300020: Bricks.001
+    3300022: Circle
+    3300024: Circle.001
+    3300026: Circle.003
+    3300028: Collar.001
+    3300030: Collar.002
+    3300032: Collar.003
+    3300034: Collar.004
+    3300036: crate.001
+    3300038: crate.002
+    3300040: crate.003
+    3300042: Grid
+    3300044: Grid.002
+    3300046: Ground
+    3300048: Ground.001
+    3300050: Ground.002
+    3300052: Ground.003
+    3300054: Ground.004
+    3300056: Ground.005
+    3300058: Ground.007
+    3300060: Ground.008
+    3300062: Ground.009
+    3300064: Lava Pit
+    3300066: Lava Pit.002
+    3300068: Player
+    3300070: Portal.001
+    3300072: Portal.003
+    3300074: railing
+    3300076: railing.001
+    3300078: railing.002
+    3300080: railing.003
+    3300082: small Book Shelf
+    3300084: small Book Shelf.002
+    3300086: Spiderweb01
+    3300088: Spiderweb02
+    3300090: Spiderweb02.002
+    3300092: StairsDown
+    3300094: StairsDown.001
+    3300096: StairsDown.003
+    3300098: Tourch
+    3300100: Tourch.002
+    3300102: Tourch.003
+    3300104: vase
+    3300106: vase.001
+    3300108: vase.002
+    3300110: vase.003
+    3300112: Wall
+    3300114: Wall Window
+    3300116: Wall Window.002
+    3300118: Wall.001
+    3300120: Wall.002
+    3300122: Wall.003
+    3300124: Wall.004
+    3300126: Wall.005
+    3300128: Wall.006
+    3300130: Wall.007
+    3300132: Wall.008
+    3300134: Wall.009
+    3300136: Wall.010
+    3300138: Wall.011
+    3300140: Wall.013
+    3300142: Wall.014
+    3300144: Wall.015
+    3300146: Wall.016
+    3300148: Wall.017
+    3300150: Wall.018
+    3300152: Wall.019
+    4300000: Spiderweb02.002
+    4300002: Spiderweb01
+    4300004: Ground.009
+    4300006: Wall.019
+    4300008: Tourch.003
+    4300010: Collar.004
+    4300012: Collar.003
+    4300014: Bricks.001
+    4300016: Wall Window.002
+    4300018: Book.003
+    4300020: Book.002
+    4300022: Book
+    4300024: vase.003
+    4300026: Circle.003
+    4300028: Grid.002
+    4300030: Lava Pit.002
+    4300032: railing.003
+    4300034: StairsDown.003
+    4300036: Banner.004
+    4300038: small Book Shelf.002
+    4300040: Portal.003
+    4300042: Portal.001
+    4300044: Book Shelf.003
+    4300046: crate.003
+    4300048: crate.002
+    4300050: crate.001
+    4300052: Collar.002
+    4300054: Collar.001
+    4300056: Grid
+    4300058: railing
+    4300060: Wall Window
+    4300062: Player
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

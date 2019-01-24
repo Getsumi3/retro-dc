@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1078598837763640}
+  m_IsPrefabAsset: 1
+--- !u!1 &1078598837763640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4068111635759154}
+  - component: {fileID: 114883135623052514}
+  - component: {fileID: 114242402655267500}
+  - component: {fileID: 114984037962340306}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4068111635759154
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1078598837763640}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114242402655267500
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1078598837763640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 040fa816a26c6fb41938dfab1f96a52a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundGroups:
+  - groupID: bg_music
+    group:
+    - {fileID: 8300000, guid: 8cd550da6c2c6b04f9270b7d9659113d, type: 3}
+    - {fileID: 8300000, guid: b6457c24c7d7c4040869241919fd6d3d, type: 3}
+    - {fileID: 8300000, guid: 20dbbb9f727fd754cba409a193eb99c3, type: 3}
+    - {fileID: 8300000, guid: 4200f4ad7b88a5e44bc427c1ee6c0b51, type: 3}
+    - {fileID: 8300000, guid: dadaa2bc8215b12469a4f7d18e5647df, type: 3}
+    - {fileID: 8300000, guid: b8dac465e64567948b9569336937bfe9, type: 3}
+    - {fileID: 8300000, guid: ddf98027ea12d894c9990d4098e7c7ec, type: 3}
+    - {fileID: 8300000, guid: ff94d5cc0af7b4146894c4850047c72e, type: 3}
+    - {fileID: 8300000, guid: ac54384321c8ec242803c9f6d2475c9f, type: 3}
+  - groupID: normal_spell
+    group:
+    - {fileID: 8300000, guid: 1d125737923a07a42bd1614fefc199e8, type: 3}
+  - groupID: special_spell
+    group:
+    - {fileID: 8300000, guid: 4ca9974ad5391fb4082ce8abd4c8ba5b, type: 3}
+  - groupID: heavy_spell
+    group:
+    - {fileID: 8300000, guid: dbe37396c2d723a4e9ffbcc219afada4, type: 3}
+  - groupID: enemy_idle
+    group:
+    - {fileID: 8300000, guid: 79a34733c8e677c42a9010bbb6c33178, type: 3}
+    - {fileID: 8300000, guid: f38c497aa92988c46970800d025bae53, type: 3}
+    - {fileID: 8300000, guid: 2fd4de136e6feb94c9c8b3e67e8a3cf5, type: 3}
+  - groupID: enemy_follow
+    group:
+    - {fileID: 8300000, guid: 25e8b44c8d5d59146828723cd91641e7, type: 3}
+    - {fileID: 8300000, guid: 940f078a6bdfabd47bedc05284a0a84a, type: 3}
+  - groupID: enemy_death
+    group:
+    - {fileID: 8300000, guid: 7dce85f8ffad5e14ca618ebaa7f61b6f, type: 3}
+    - {fileID: 8300000, guid: 47280b3f97d4e394cb9b0d5350bd6478, type: 3}
+    - {fileID: 8300000, guid: 0797e2f52b4158646ad4f2e974cdc96f, type: 3}
+  - groupID: sword_attack
+    group:
+    - {fileID: 8300000, guid: 0647a3b657a7a7742b0c694876926108, type: 3}
+  - groupID: portal
+    group:
+    - {fileID: 8300000, guid: f72c900966cbad34190df459dc5e9c4d, type: 3}
+--- !u!114 &114883135623052514
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1078598837763640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ac75904e92765c41a3008a55b24db57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114984037962340306
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1078598837763640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df583719697d6bb48bea652b024ed34b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuTheme:
+  - {fileID: 8300000, guid: e6203b2c85de4c240a42967822e0bd71, type: 3}
+  actionTheme:
+  - {fileID: 8300000, guid: 20dbbb9f727fd754cba409a193eb99c3, type: 3}
+  - {fileID: 8300000, guid: 4200f4ad7b88a5e44bc427c1ee6c0b51, type: 3}
+  - {fileID: 8300000, guid: b6457c24c7d7c4040869241919fd6d3d, type: 3}
+  - {fileID: 8300000, guid: 10b9e1a2fbca779428f8a2dc52e9ece2, type: 3}
+  bossTheme:
+  - {fileID: 8300000, guid: 1b197323357862a44b90b0f13b8f26d0, type: 3}
+  idleTheme:
+  - {fileID: 8300000, guid: a8061af71c457df4ba1089c1d294b8ff, type: 3}

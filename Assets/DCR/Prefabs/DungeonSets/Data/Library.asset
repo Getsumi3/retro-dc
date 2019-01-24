@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce2eca083442b814abc051e4c856ccce, type: 3}
+  m_Name: Library
+  m_EditorClassIdentifier: 
+  noun: Library
+  description: 'an old library deep in dungeon.
+
+    old books, spider webs and dust everywhere.'
+  floorTiles:
+  - {fileID: 1902291775351936, guid: e593998023591054fb0f169505291018, type: 2}
+  - {fileID: 1085225467792540, guid: 9cab66ce4b93ca644bc4734f547f23a3, type: 2}
+  - {fileID: 1233184323075290, guid: a553b4ab21d0f8043962030875a19097, type: 2}
+  wallTiles:
+  - {fileID: 1739904336151126, guid: c1464c9c700004948ab812060041e565, type: 2}
+  - {fileID: 1739904336151126, guid: c1464c9c700004948ab812060041e565, type: 2}
+  - {fileID: 1586344575574310, guid: 1318d302aba9c8348ab1411f032fb666, type: 2}
+  propsTiles:
+  - {fileID: 1358449383274294, guid: ce746c8d3e0dff24782c9bf9f892b6b9, type: 2}
+  - {fileID: 1329722392477324, guid: b9a908308fc0c2e42b384a28d68cceb0, type: 2}
+  - {fileID: 1020593952484782, guid: 260ec39bd6ed3e747b215d0c36b0b5a3, type: 2}
+  - {fileID: 1024894506033722, guid: a146caae5be17784bb075f5ca72ff144, type: 2}
+  - {fileID: 1977797645844690, guid: 19b4e560b350d1c49a28cbb038270a4e, type: 2}
+  outerWallTiles:
+  - {fileID: 1629956839769552, guid: c003330e9ff7115408533f8e0ae7d5c7, type: 2}
