@@ -10,9 +10,9 @@ public class Menu : MonoBehaviour {
     public Text highScoreHolder;
 
 	public Slider[] volumeSliders;
-	public Toggle[] resolutionToggles;
+	//public Toggle[] resolutionToggles;
     public Toggle[] qualityToggles;
-    public Toggle fullscreenToggle;
+    //public Toggle fullscreenToggle;
 	public int[] screenWidths;
 	int activeScreenResIndex;
     int activeQualityIndex;
@@ -21,30 +21,30 @@ public class Menu : MonoBehaviour {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
 
-        activeScreenResIndex = PlayerPrefs.GetInt ("screen res index");
-		bool isFullscreen = (PlayerPrefs.GetInt ("fullscreen") == 1)?true:false;
+        //activeScreenResIndex = PlayerPrefs.GetInt ("screen res index");
+		//bool isFullscreen = (PlayerPrefs.GetInt ("fullscreen") == 1)?true:false;
         activeQualityIndex = PlayerPrefs.GetInt("quality index");
 
 		volumeSliders [0].value = AudioManager.instance.masterVolumePercent;
 		volumeSliders [1].value = AudioManager.instance.musicVolumePercent;
 		volumeSliders [2].value = AudioManager.instance.sfxVolumePercent;
 
-		for (int i = 0; i < resolutionToggles.Length; i++) {
-			resolutionToggles [i].isOn = i == activeScreenResIndex;
-		}
+		//for (int i = 0; i < resolutionToggles.Length; i++) {
+		//	resolutionToggles [i].isOn = i == activeScreenResIndex;
+		//}
         for (int i = 0; i < qualityToggles.Length; i++)
         {
             qualityToggles[i].isOn = i == activeQualityIndex;
         }
 
-        if (isFullscreen)
-        {
-            for (int i = 0; i < resolutionToggles.Length; i++)
-            {
-                resolutionToggles[i].isOn = !isFullscreen;
-            }
-            fullscreenToggle.isOn = isFullscreen;
-        }
+        //if (isFullscreen)
+        //{
+        //    for (int i = 0; i < resolutionToggles.Length; i++)
+        //    {
+        //        resolutionToggles[i].isOn = !isFullscreen;
+        //    }
+        //    fullscreenToggle.isOn = isFullscreen;
+        //}
         
         highScoreHolder.text = "High Score: " + PlayerPrefs.GetInt("highScore");
 
@@ -80,15 +80,15 @@ public class Menu : MonoBehaviour {
 		optionsMenuHolder.SetActive (false);
 	}
 
-	public void SetScreenResolution(int i) {
-		if (resolutionToggles [i].isOn) {
-			activeScreenResIndex = i;
-			float aspectRatio = 16 / 9f;
-			Screen.SetResolution (screenWidths [i], (int)(screenWidths [i] / aspectRatio), false);
-			PlayerPrefs.SetInt ("screen res index", activeScreenResIndex);
-			PlayerPrefs.Save ();
-		}
-	}
+	//public void SetScreenResolution(int i) {
+	//	if (resolutionToggles [i].isOn) {
+	//		activeScreenResIndex = i;
+	//		float aspectRatio = 16 / 9f;
+	//		Screen.SetResolution (screenWidths [i], (int)(screenWidths [i] / aspectRatio), false);
+	//		PlayerPrefs.SetInt ("screen res index", activeScreenResIndex);
+	//		PlayerPrefs.Save ();
+	//	}
+	//}
 
     public void SetQuality(int i)
     {
@@ -101,22 +101,22 @@ public class Menu : MonoBehaviour {
         }
     }
 
-    public void SetFullscreen(bool isFullscreen) {
-		for (int i = 0; i < resolutionToggles.Length; i++) {
-			resolutionToggles [i].isOn = !isFullscreen;
-		}
+ //   public void SetFullscreen(bool isFullscreen) {
+	//	for (int i = 0; i < resolutionToggles.Length; i++) {
+	//		resolutionToggles [i].isOn = !isFullscreen;
+	//	}
 
-		if (isFullscreen) {
-			Resolution[] allResolutions = Screen.resolutions;
-			Resolution maxResolution = allResolutions [allResolutions.Length - 1];
-			Screen.SetResolution (maxResolution.width, maxResolution.height, true);
-		} else {
-			SetScreenResolution (activeScreenResIndex);
-		}
+	//	if (isFullscreen) {
+	//		Resolution[] allResolutions = Screen.resolutions;
+	//		Resolution maxResolution = allResolutions [allResolutions.Length - 1];
+	//		Screen.SetResolution (maxResolution.width, maxResolution.height, true);
+	//	} else {
+	//		SetScreenResolution (activeScreenResIndex);
+	//	}
 
-		PlayerPrefs.SetInt ("fullscreen", ((isFullscreen) ? 1 : 0));
-		PlayerPrefs.Save ();
-	}
+	//	PlayerPrefs.SetInt ("fullscreen", ((isFullscreen) ? 1 : 0));
+	//	PlayerPrefs.Save ();
+	//}
 
 	public void SetMasterVolume() {
         AudioManager.instance.SetVolume (volumeSliders[0].value, AudioManager.AudioChannel.Master);

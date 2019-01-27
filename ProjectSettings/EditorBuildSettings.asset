@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/DCR/Scenes/MainMenu.unity
     guid: d95becb27d1c04d4a909f833cc72f7de
   - enabled: 1
-    path: Assets/DCR/Scenes/prototype.unity
+    path: Assets/DCR/Scenes/dungeon.unity
     guid: 65dfd70c3d26fba46881d3438e7dabd5
   - enabled: 1
     path: Assets/DCR/Scenes/bossRoom.unity

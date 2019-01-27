@@ -2735,7 +2735,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 200
-  damage: 25
+  damage: 20
   enemySpeed: 16
   inspectTimeout: 1
   navMeshAgent: {fileID: 195051595382253702}

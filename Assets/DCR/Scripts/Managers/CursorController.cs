@@ -27,6 +27,7 @@ public class CursorController : MonoBehaviour {
         Time.timeScale = 0;
         isPaused = true;
         mouseLook.SetCursorLock(false);
+        FindObjectOfType<PlayerBehavior>().enabled = false;
     }
 
     public void Trigger_Continue()
@@ -35,6 +36,7 @@ public class CursorController : MonoBehaviour {
 		Time.timeScale = 1f;
 		isPaused = false;
         mouseLook.SetCursorLock(true);
+        FindObjectOfType<PlayerBehavior>().enabled = true;
     }
 
     public void Trigger_MainMenu()
