@@ -2,7 +2,7 @@
 using UnityEngine.SceneManagement;
 using UnityStandardAssets.CrossPlatformInput;
 
-public class CursorController : MonoBehaviour {
+public class PauseController : MonoBehaviour {
 
 	public GameObject pauseMenu;
     public UnityStandardAssets.Characters.FirstPerson.MouseLook mouseLook;
